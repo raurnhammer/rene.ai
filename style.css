@@ -1,34 +1,39 @@
 /* General Styles */
 body {
+  --mint-cream: #f7fff7ff;
+  --midnight-green: #1a535cff;
+  --robin-egg-blue: #4ecdc4ff;
+  --light-red: #ff6b6bff;
+  --naples-yellow: #ffe66dff;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fdf7f2;
+  background-color: var(--mint-cream);
   /* Light Cream Background */
-  color: #5a5a5a;
+  color: var(--midnight-green);
   /* Warm Gray Text */
 }
 
 header {
   text-align: center;
   padding: 20px;
-  background-color: #a8d5ba;
+  background-color: var(--robin-egg-blue);
   /* Pastel Green */
 }
 
 h1 {
-  color: #5a5a5a;
+  color: var(--midnight-green);
   /* Warm Gray text for the header */
   font-size: 2em;
   margin: 0;
 }
 
 #hero {
-  background-color: #b4e0e6;
+  background-color: var(--midnight-green);
   /* Soft Cyan */
   padding: 50px;
   text-align: center;
-  color: #5a5a5a;
+  color: var(--mint-cream);
   /* Warm Gray for hero text */
 }
 
@@ -36,17 +41,18 @@ h1 {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 25px;
-  background-color: #f7a1a1;
+  background-color: var(--light-red);
   /* Peach */
-  color: white;
+  color: var(--mint-cream);
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-  background-color: #f28b8b;
-  /* Slightly darker peach for hover */
+  background-color: var(--naples-yellow);
+  color: var(--midnight-green)
+    /* Slightly darker peach for hover */
 }
 
 #about,
@@ -57,14 +63,14 @@ h1 {
 }
 
 h3 {
-  color: #f28b8b;
+  color: var(--light-red);
   /* Soft Rose for section titles */
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background: #a8d5ba;
+  background: var(--naples-yellow);
   /* Pastel Green */
   color: #5a5a5a;
   /* Warm Gray */

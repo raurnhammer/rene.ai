@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #2d72d9;
+}
+
+#hero {
+  background: #e3f2fd;
+  padding: 50px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2d72d9;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#about,
+#services,
+#contact {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #2d72d9;
+  color: white;
+}

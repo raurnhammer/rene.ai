@@ -3,41 +3,41 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fb;
-  /* Soft Gray Background */
-  color: #333333;
-  /* Dark Gray Text */
+  background-color: #fdf7f2;
+  /* Light Cream Background */
+  color: #5a5a5a;
+  /* Warm Gray Text */
 }
 
 header {
   text-align: center;
   padding: 20px;
-  background-color: #004a9f;
-  /* Deep Blue */
+  background-color: #a8d5ba;
+  /* Pastel Green */
 }
 
 h1 {
-  color: white;
-  /* White text for the header */
+  color: #5a5a5a;
+  /* Warm Gray text for the header */
   font-size: 2em;
   margin: 0;
 }
 
 #hero {
-  background-color: #86c5e8;
-  /* Light Blue */
+  background-color: #b4e0e6;
+  /* Soft Cyan */
   padding: 50px;
   text-align: center;
-  color: #004a9f;
-  /* Deep Blue */
+  color: #5a5a5a;
+  /* Warm Gray for hero text */
 }
 
 .cta-button {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 25px;
-  background-color: #0073e6;
-  /* Vibrant Blue */
+  background-color: #f7a1a1;
+  /* Peach */
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -45,8 +45,8 @@ h1 {
 }
 
 .cta-button:hover {
-  background-color: #005bb5;
-  /* Slightly darker blue for hover */
+  background-color: #f28b8b;
+  /* Slightly darker peach for hover */
 }
 
 #about,
@@ -57,15 +57,16 @@ h1 {
 }
 
 h3 {
-  color: #004a9f;
-  /* Deep Blue for section titles */
+  color: #f28b8b;
+  /* Soft Rose for section titles */
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background: #004a9f;
-  /* Deep Blue */
-  color: white;
+  background: #a8d5ba;
+  /* Pastel Green */
+  color: #5a5a5a;
+  /* Warm Gray */
   font-size: 0.9em;
 }

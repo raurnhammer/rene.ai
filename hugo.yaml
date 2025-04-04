@@ -2,3 +2,35 @@ baseURL: https://rene.ai/
 languageCode: en-us
 title: rene.ai
 theme: ["PaperMod"]
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: rene.ai
+  description: "Tinkering with AI, ML, and Data Science"
+  keywords: [AI, ML, Data Science, Python, LLM, ChatGPT, OpenAI, HuggingFace, StableDiffusion]
+  author: Rene Aurnhammer
+  images: []
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "rene.ai"
+    icon: /robot.svg
+    iconHeight: 35

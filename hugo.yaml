@@ -34,3 +34,8 @@ params:
     text: "rene.ai"
     icon: /robot.svg
     iconHeight: 35
+
+  assets:
+      favicon16x16: /favicon16x16.png
+      favicon32x32: /favicon32x32.png
+      apple_touch_icon: /apple-touch-icon.png

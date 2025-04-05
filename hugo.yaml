@@ -41,3 +41,24 @@ params:
       apple_touch_icon: /apple-touch-icon.png
       android_chrome_192: /android_chrome_192.png
       android_chrome_512: /android_chrome_512.png
+
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/raurnhammer"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/rkretzschmar-ai/"
+    - name: xing
+      url: "https://www.xing.com/profile/Rene_Aurnhammer"
+    - name: blue-sky
+      url: "https://bsky.app/profile/raurnhammer.bsky.social"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
